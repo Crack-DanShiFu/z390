@@ -170,7 +170,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0 agdpmod=pikera darkwake=0 -cdfon</string>
+		<string>dart=0 darkwake=0 agdpmod=pikera -cdfon</string>
 		<key>CustomLogo</key>
 		<true/>
 		<key>Debug</key>
@@ -196,6 +196,8 @@
 	</dict>
 	<key>CPU</key>
 	<dict>
+		<key>Type</key>
+		<string>0x0705</string>
 		<key>UseARTFrequency</key>
 		<false/>
 	</dict>
